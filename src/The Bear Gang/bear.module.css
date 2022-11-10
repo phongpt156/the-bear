@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: gotham;
+    src: url(./svn_gotham_rounded/SVN-Gotham\ Rounded\ Regular.ttf);
+}
+
+
+header {
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.head {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.headIMG {
+    width: 50%;
+    height: auto;
+    pointer-events: none;
+}
+
+.header_bg {
+    width: 100%;
+}
+
+.inc {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    line-height: 35%;
+    font-size: 50px;
+    font-weight: 500;
+    top: 200px;
+}
+
+.planet_tim {
+    position: absolute;
+    top: 15%;
+    left: 0px;
+    width: 10%;
+}
+
+.planet_do {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    width: 10%;
+}
+
+.head img {
+    width: 3%;
+    height: 3%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.icons_explore {
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+}
+
+.heading {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 70%;
+   
+}
+
+.hiddenBear {
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+    width: 90.5%;
+    height: 83%;
+    z-index: 3;
+    transition: 3.5s;
+}
+
+.hiddenImg {
+    width: 100%;
+    height: auto;
+}
+
+article {
+    margin-top: -18%;
+    width: 100%;
+    min-height: 100%;
+    z-index: 5;
+    position: relative;
+   
+}
+
+.pong {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    width: 100%;
+}
+
+.planet_do1 {
+    position: absolute;
+    top: 5%;
+    left: 0px;
+    width: 15%;
+}
+
+.planet_tim1 {
+    position: absolute;
+    top: 56.4%;
+    right: 0px;
+    width: 10%;
+}
+
+.show {
+    position: absolute;
+    width: 30%;
+    height: 61%;
+    left: 27%;
+    top: 56%;
+    background: linear-gradient(128.31deg, rgba(74, 58, 255, 0) 0%, rgba(74, 58, 255, 0.61) 100%);
+    filter: drop-shadow(0px 0px 12px rgba(255, 255, 255, 0.5));
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border-radius: 50px;
+}
+
+.bear1 {
+    position: absolute;
+    transform: translate(-16%, -21%);
+    height: 77%;
+}
+
+.introduce {
+    width: 40%;
+    position: absolute;
+    top: 30%;
+    left: 48%;
+}
+
+
+
+
+.introduce h5 {
+    font-family: gotham;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.introduce p {
+    font-family: gotham;
+    color: #ffffff;
+    font-weight: 400
+}
+
+.first_button {
+    font-size: 15px;
+    padding: 20px 30px;
+    background-color: #F3EA4E;
+    border-radius: 43.75px;
+    border: none;
+    margin-top: 10%;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: gotham;
+}
+
+.second_bg {
+    width: 100%;
+}
+
+.second_button {
+    font-size: 15px;
+    padding: 20px 30px;
+    border-radius: 43.75px;
+    margin-top: 10%;
+    border: 1px solid #F3EA4E;
+    cursor: pointer;
+    background: transparent;
+    color: #F3EA4E;
+    margin-left: 10%;
+    font-weight: 500;
+    font-family: gotham;
+}
+
+.bear_names {
+    position: absolute;
+    top: 103%;
+    left: 28%;
+    color: #ffffff;
+    font-size: 5%;
+    font-family: gotham;
+    font-weight: 800;
+}
+
+.polygon {
+    width: 36%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 84%;
+    left: 10%;
+}
+
+
+
+
+@media screen and (max-width:1800px) {
+    .planet_tim1 {
+        top: 57.2%;
+    }
+}
+
+@media screen and (max-width:1700px) {
+    .inc {
+        top: 130px;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    .planet_tim1 {
+        top: 55.2%;
+    }
+}
+
+@media screen and (max-width:1500px) {
+    .planet_tim1 {
+        top: 57.2%;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .planet_tim1 {
+        top: 56%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .first_button,
+    .second_button {
+        padding: 15px 20px;
+    }
+    .inc {
+        top: 100px;
+        
+    }
+    .heading {
+        height: 77%;
+    }
+    .planet_tim1 {
+        top: 54.4%;
+    }
+    .hiddenBear{
+        top: 60%;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .planet_tim1 {
+        top: 55.6%;
+    }
+   
+}
+
+@media screen and (max-width:1000px) {
+    .first_button,
+    .second_button {
+        padding: 13px 10px;
+        font-size: 12px;
+    }
+    .planet_tim1 {
+        top: 57.1%;
+    }
+    .icons_explore {
+        top: 60%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .introduce {
+        top: 15%;
+    }
+    .inc {
+        top: 85px;
+        font-size: 40px;
+    }
+    .planet_tim1 {
+        top: 53%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .introduce h5 {
+        font-size: 40px;
+    }
+    .introduce p {
+        font-size: 15px;
+    }
+} 
+
+@media screen and (max-width:700px) {
+    .first_button,
+    .second_button {
+        padding: 13px 5px;
+        font-size: 9px;
+    }
+    .planet_tim1 {
+        top: 52%;
+    }
+    .heading {
+        height: 85%;
+    }
+    .inc {
+        font-size: 35px;
+    }
+    .hiddenBear {
+        top: 120%;
+    }
+    .introduce p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .introduce h5 {
+        font-size: 30px;
+    }
+    .introduce {
+        top: 15%;
+    }
+    .planet_tim1 {
+        top: 52%;
+    }
+    .icons_explore {
+        top: 65%;
+    }
+    .heading {
+        height: 95%;
+    }
+    .inc {
+        font-size: 30px;
+    }
+    .hiddenBear {
+        top: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .introduce h5 {
+        font-size: 20px;
+    }
+    .introduce p {
+        font-size: 11px;
+    }
+    .first_button,
+    .second_button {
+        padding: 10px 5px;
+        font-size: 7px;
+    }
+    .introduce {
+        top: 12%;
+    }
+    .planet_tim1 {
+        top: 51%;
+    }
+    .hiddenBear {
+        top: 50%;
+    }
+}
+

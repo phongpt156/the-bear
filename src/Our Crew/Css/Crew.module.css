@@ -1,0 +1,763 @@
+@import url('https://fonts.cdnfonts.com/css/gotham-rounded');
+
+
+
+.crew {
+    z-index: 3;
+    width: 100%;
+    height: auto !important;
+   
+    background-image: url('../CrewImg/BG.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -1%;
+   
+}
+
+
+.title {
+    padding: 10px 0;
+}
+
+
+
+.title h2 {
+    font-family: 'Gotham Rounded';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+    color: #ffff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.bearsBlocks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.blockItem {
+    background-color: #ffff;
+    border-radius: 30px;
+    transition: .5s linear;
+    cursor: pointer;
+}
+
+.blockItem:hover {
+    transform: scale(1.1);
+    transition: .5s linear;
+}
+
+.blockItem img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 30px;
+}
+
+.itemDesc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.itemDesc p {
+    font-size: 18px;
+    color: #251D75;
+    font-family: 'Gotham Rounded';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.itemDesc span {
+    font-size: 15px;
+    font-family: 'Gotham Rounded';
+    font-style: normal;
+    color: #251D75;
+    padding: 10px 10px;
+    font-weight: 300;
+}
+
+
+
+
+
+/* Block FAQ */
+
+
+
+.blockFaqContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faqTitle {
+    margin-top: 200px;
+}
+
+.faqTitle h2 {
+    font-family: 'Gotham Rounded';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+    color: #ffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.faqDescBlocks {
+    position: relative;
+    left: 150px;
+    margin-left: 350px;
+    z-index: 10;
+}
+
+.blockDesc1 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: #FFFDF6;
+    box-shadow: 0px 6.22767px 16.6071px rgba(74, 58, 255, 0.19);
+    border-radius: 25px;
+}
+
+.paragraph {
+    padding: 40px 40px;
+} 
+
+.paragraph p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #251D75;
+    font-family: 'Gotham Rounded';
+    font-style: normal;
+}
+
+.light {
+    font-family: 'Gotham Rounded' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: #6F6C90 !important;
+
+}
+
+.faqbtn {
+    padding: 0 20px;
+}
+
+.faqbtn button {
+    background-color: #251D75;
+    color: #FFFDF6;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    border: 1px solid #ffff;
+    z-index: 7 !important;
+}
+
+.faqbtn button:hover {
+    color: #251D75;
+    background-color: #FFFDF6;
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+    border: 1px solid  #251D75;
+    transform: scale(1.1) rotate(90deg);
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* Block Join */ 
+
+.blockJoin {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blockJoinDesc {
+    width: 60%;
+    height: auto;
+    position: relative;
+    bottom: 100px;
+    margin: 0 auto;
+}
+
+.blockJoinDesc img {
+    border-radius: 50px;
+    background: #DA368B;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blockJoinDesc h2 {
+    position: absolute;
+    top: 50px;
+    color: #F6E34D;
+    font-family: 'Gotham Rounded';
+    font-style: normal;
+    font-size: 70px;
+    padding-left: 100px;
+    width: 40%;
+}
+
+.blockJoinDesc button {
+    position: absolute;
+    bottom: 120px;
+    left: 100px;
+    color: #251D75;
+    background-color: #F6E34D;
+    border: none;
+    border-radius: 50px;
+    padding: 9px 8px;
+    font-weight: 500;
+    font-family: 'Gotham Rounded';
+    font-style: normal;
+    transition: .5s ease-in-out;
+    border: 1px solid #F6E34D;
+    z-index: 5;
+}
+
+.blockJoinDesc button:hover {
+    background-color: #DA368B;
+    border: 1px solid #F6E34D;
+    color: #F6E34D;
+    transition: .5s ease-in-out;
+}
+
+
+
+.pongBear {
+    position: absolute;
+    width: 700px !important;
+    height: 700px !important;
+    bottom: -20px !important; 
+    right: 150px !important;
+    background: none !important;
+}
+
+.vector {
+    position: absolute;
+    right: 0 !important;
+    bottom: 0;
+    height: 720px;
+}
+
+
+
+
+
+
+
+/* media query */
+
+@media screen and (max-width:1800px) {
+    .blockJoinDesc h2 {
+        font-size: 60px;
+    }
+    .pongBear {
+        width: 650px !important;
+        height: 650px !important;
+        bottom: -10px !important;
+    }
+}
+
+@media screen and (max-width:1700px){
+    .blockJoinDesc button {
+        bottom: 120px;
+    }
+    .pongBear {
+        width: 630px !important;
+        height: 630px !important;
+        bottom: -10px !important;
+    }
+    .faqDescBlocks {
+        margin-left: 300px;
+    } 
+}
+
+@media screen and (max-width:1600px) {
+    .blockJoinDesc h2 {
+        font-size: 50px;
+    }
+    .pongBear {
+        width: 570px !important;
+        height: 570px !important;
+        bottom: 15px !important;
+    }
+    .faqDescBlocks {
+        margin-left: 250px;
+        bottom: 100px;
+    }
+    .rotateBear img {
+        width: 550px;
+        height: auto;
+    }
+    .vector {
+        bottom: -1px;
+    } 
+}
+
+@media screen and (max-width:1500px) {
+    .blockJoinDesc h2 {
+        font-size: 45px;
+    }
+    .blockJoinDesc button {
+        bottom: 110px;
+    }
+    .pongBear {
+        right: 125px !important;
+        width: 530px !important;
+        height: 530px !important;
+        bottom: 25px !important;
+    }
+    .faqDescBlocks {
+        margin-left: 200px;
+    }
+    .title h2,
+    .faqTitle h2 {
+        font-size: 80px;
+    }
+}
+@media screen and (max-width:1440px){
+    .crew{
+        margin-top: -2%;
+    }
+}
+@media screen and (max-width:1400px) {
+    .vector {
+        height: 635px;
+        width: 650px;
+    }
+    .pongBear {
+        right: 105px !important;
+        width: 535px !important;
+        height: 535px !important;
+        bottom: -5px !important;
+    }
+    .blockJoinDesc button {
+        bottom: 100px;
+        padding: 8px 6px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .blockJoinDesc h2 {
+        font-size: 40px;
+    }
+    .blockJoinDesc button {
+        bottom: 80px;
+        padding: 6px 4px;
+        font-size: 12px;
+    }
+    .pongBear {
+        right: 100px !important;
+        width: 500px !important;
+        height: 500px !important;
+        bottom: 0px !important;
+    }
+    .faqDescBlocks {
+        margin-left: 150px;
+    }
+   
+    .light {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .vector {
+        height: 635px;
+        width: 600px;
+    }
+    .pongBear {
+        right: 85px !important;
+        width: 470px !important;
+        height: 470px !important;
+        bottom: 0px !important;
+    }
+    .blockJoinDesc h2 {
+        font-size: 37px;
+    }
+    .rotateBear img {
+        width: 450px;
+        bottom: 400px;
+        position: relative;
+    }
+    
+    .light {
+        font-size: 12px !important;
+    }
+    .blockDesc button {
+        width: 40px;
+        height: 40px;
+    }
+    .faqbtn button {
+        width: 40px;
+        height: 40px;
+    }
+    .faqDescBlocks {
+        bottom: 200px;
+    }
+    .paragraph {
+        padding: 10px 30px;
+    }
+    .faqTitle {
+        padding: 30px 0;
+    }
+    .blockDesc1 p {
+        font-size: 17px;
+    }
+    .blockJoinDesc h2 {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .blockJoinDesc button {
+        bottom: 60px;
+        padding: 6px 4px;
+        font-size: 10px;
+    }
+    .crew{
+        position: relative;
+    }
+    .vector {
+        height: 600px;
+        width: 550px;
+    }
+    .pongBear {
+        right: 70px !important;
+        width: 450px !important;
+        height: 450px !important;
+        bottom: -5px !important;
+    }
+    .title h2,
+    .faqTitle h2 {
+        font-size: 60px;
+    }
+    .faqDescBlocks {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .bearsBlocks {
+        flex-direction: column;
+    }
+    .blockItem {
+        margin-top: 20px;
+    }
+    .vector {
+        height: 550px;
+        width: 500px;
+    }
+    .pongBear {
+        right: 70px !important;
+        width: 400px !important;
+        height: 400px !important;
+        bottom: 9px !important;
+    }
+    .blockJoinDesc button {
+        bottom: 45px;
+        padding: 6px 4px;
+        font-size: 8px;
+    }
+    .blockJoinDesc h2 {
+        font-size: 35px;
+    }
+    .rotateBear img {
+        width: 400px;
+    }
+    .paragraph {
+        padding: 10px 25px;
+    }
+   
+    .rotateBear img {
+        position: relative;
+        bottom: 450px;
+        width: 350px !important;
+    }
+    .faqTitle {
+        position: relative;
+        bottom: 120px;
+    }
+    
+}
+
+@media screen and (max-width:900px) {
+    .blockJoinDesc {
+        bottom: 50px;
+    }
+    .pongBear {
+        right: 75px !important;
+        width: 330px !important;
+        height: 330px !important;
+        bottom: -4px !important;
+    }
+    .vector {
+        height: 450px;
+        width: 450px;
+    }
+    .blockJoinDesc h2 {
+        font-size: 30px;
+        width: 60%;
+    }
+  
+    .faqDescBlocks {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .vector {
+        height: 400px;
+        width: 400px;
+    }
+    .pongBear {
+        right: 64px !important;
+        width: 300px !important;
+        height: 300px !important;
+        bottom: -5px !important;
+    }
+    .blockJoinDesc h2 {
+        font-size: 25px;
+        padding-left: 40px;
+        top: 35px;
+    }
+    .blockJoinDesc button {
+        bottom: 45px;
+        left: 50px;
+    }
+    .rotateBear img {
+        bottom: 450px;
+        width: 300px !important;
+    }
+    .faqDescBlocks {
+        bottom: 150px;
+    }
+   .light  {
+    font-size: 10px !important;
+   }
+   .paragraph {
+    padding: 10px 20px;
+   }
+  
+   .paragraph p {
+    font-size: 14px;
+   }
+   .crew{
+    margin-top: -50%;
+   }
+}
+
+@media screen and (max-width:700px) {
+    .vector {
+        height: 350px;
+        width: 350px;
+    }
+    .pongBear {
+        right: 60px !important;
+        width: 250px !important;
+        height: 250px !important;
+        bottom: 5px !important;
+    }
+    .blockJoinDesc img {
+        border-radius: 10px;
+    }
+    .blockJoinDesc h2 {
+        padding-left: 75px;
+        text-align: center;
+        top: 40px;
+        width: 80%;
+    }
+    .blockJoinDesc button {
+        left: 155px;
+    }
+   
+    .light {
+        line-height: 15px !important;
+    }
+    .blockDesc1 {
+        border-radius: 10px;
+    }
+    .blockDesc1 button {
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .vector {
+        height: 320px;
+        width: 300px;
+    }
+    .pongBear {
+        right: 50px !important;
+        width: 200px !important;
+        height: 220px !important;
+        bottom: 10px !important;
+    }
+    .blockJoinDesc h2 {
+        font-size: 20px;
+    }
+    .blockJoinDesc button {
+        font-size: 6px;
+    }
+    .blockDesc1 p {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .light {
+        font-size: 8px !important;
+    }
+   .rotateBear img {
+        bottom: 450px;
+        width: 250px !important;
+    }
+    .faqDescBlocks {
+        margin-left: 0;
+    }
+    .title h2,
+    .faqTitle h2 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .vector {
+        height: 300px;
+        width: 250px;
+    }
+    .pongBear {
+        right: 35px !important;
+        width: 190px !important;
+        height: 190px !important;
+        bottom: 10px !important;
+    }
+    .blockJoinDesc h2 {
+        padding-left: 75px;
+        width: 70%;
+        top: 30px;
+    }
+    .blockJoinDesc button {
+        left: 110px;
+        bottom: 20px;
+    }
+    .faqTitle h2 {
+        padding: 45px 0;
+    }
+    .rotateBear img {
+        width: 230px !important;
+        bottom: 500px;
+    }
+    .faqDescBlocks {
+        left: 120px;
+    }
+    .blockDesc1 p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .blockDesc1 button{
+        width: 25px;
+        height: 25px;
+        font-size: 15px;
+    }
+    .itemDesc p {
+        font-size: 15px;
+    }
+    .itemDesc span {
+        font-size: 12px;
+    }
+    .faqTitle {
+        padding: 0;
+    }
+    .lightt {
+        font-size: 10px;
+        line-height: 0px;
+    }
+    
+}
+
+@media screen and (max-width:400px) {
+    .vector {
+        height: 250px;
+        width: 200px;
+    }
+    .pongBear {
+        right: 25px !important;
+        width: 170px !important;
+        height: 170px !important;
+        bottom: 3px !important;
+    }
+    .blockJoinDesc h2 {
+        padding-left: 65px;
+        width: 50%;
+        font-size: 15px;
+        top: 7px;
+    }
+    .blockJoinDesc button {
+        left: 90px;
+        bottom: 20px;
+        font-size: 5px;
+    }
+     .lightt {
+        font-size: 7px;
+        line-height: 0px;
+    }
+    .blockDesc1 p {
+        font-size: 10px;
+        line-height: 10px;
+        width: 100%;
+    }
+    
+    .blockDesc1 button{
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+    }
+    .title h2,
+    .faqTitle h2 {
+        font-size: 40px;
+    }
+    .paragraph {
+        padding: 10px 20px;
+    }
+    .rotateBear img {
+        width: 150px !important;
+        bottom: 450px !important;
+    }
+    .faqDescBlocks {
+        left: 70px;
+    }
+}
+
+
+
+

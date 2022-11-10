@@ -1,0 +1,199 @@
+
+@font-face {
+   font-family: gotham;
+   src: url(/src/The\ Bear\ Gang/svn_gotham_rounded/SVN-Gotham\ Rounded\ Regular.ttf);
+}
+*{
+   font-family: gotham;
+}
+
+.animBears {
+   z-index: 3;
+   background-image: url('../img/BG.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: auto;
+   position: relative;
+   top: -620px;
+   margin-top: -1%;
+}
+
+
+.sectionTitle h2 {
+    text-align: center;
+    background: linear-gradient(45deg, #c108ff 33%, #ffea00 66%, #eb11ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0867ff;
+    font-size: 100px;
+}
+
+.topLine,
+.bottomLine{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    width: 100%;
+    background: #DA368B;
+    color:#ffff;
+    font-size: 20px;
+    white-space: pre;
+}
+
+ .bearRow1,
+ .bearRow2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+   
+ }
+
+ .bearRow1 {
+    animation: bearsRow1 70s infinite linear;
+    transform: translateX(1000px);
+ }
+
+ .bearRow2 {
+    animation: bearsRow2 70s infinite linear;
+    transform: translateX(-1000px);
+ }
+
+ .bearRow1:hover {
+    animation-play-state: paused;
+ }
+ .bearRow2:hover {
+    animation-play-state: paused;
+ }
+ 
+
+ .bearRow1 img,
+ .bearRow2 img {
+   object-fit: cover;
+   object-position: center;
+    margin: 0 20px;
+    transition: .5s linear;
+ }
+
+ .bearRow1 img:hover,
+ .bearRow2 img:hover {
+    transform: scale(1.1);
+    transition: .5s linear;
+   
+ }
+ 
+ @keyframes bearsRow1 {
+    0% {
+        transform: translateX(1000px);
+    }
+    100% {
+        transform: translateX(-300px);
+    }
+ }
+
+ @keyframes bearsRow2 {
+    0% {
+        transform: translateX(-1000px);
+    }
+    100% {
+        transform: translateX(300px);
+    }
+ }
+
+
+
+ @media screen and (max-width:1800px) {
+   .animBears {
+      top: -570px;
+   }
+ }
+
+ @media screen and (max-width:1600px) {
+   .animBears {
+      top: -520px;
+      margin-top: -3%;
+   }
+ }
+
+ @media screen and (max-width:1500px) {
+   .animBears {
+      top: -480px;
+   }
+ }
+
+ @media screen and (max-width:1400px) {
+   .animBears {
+      top: -430px;
+      margin-top: -1%;
+   }
+ }
+
+ @media screen and (max-width:1100px) {
+   .animBears {
+      top: -370px;
+   }
+   .bearRow1 img,
+   .bearRow2 img {
+      width: 20%;
+   }
+   .topLine,
+   .bottomLine {
+      font-size: 15px;
+   }
+ }
+
+ @media screen and (max-width:1000px) {
+   .animBears {
+      top: -300px;
+   }
+   .sectionTitle h2 {
+      font-size: 80px;
+   }
+ }
+ @media screen and (max-width:900px) {
+   .animBears{
+      margin-top: -6%;
+   }
+ }
+ @media screen and (max-width:800px) {
+   .animBears{
+      margin-top: -3%;
+   }
+ }
+ 
+
+ @media screen and (max-width:700px) {
+   .sectionTitle h2 {
+      font-size: 50px;
+   }
+  
+   @keyframes bearsRow1 {
+      0% {
+          transform: translateX(500px);
+      }
+      100% {
+          transform: translateX(-300px);
+      }
+   }
+   .animBears {
+      top: -250px;
+      margin-top: -7%;
+   }
+ }
+
+ @media screen and (max-width:500px) {
+   .animBears {
+      top: -200px;
+      margin-top: -4%;
+   }
+   .topLine,
+   .bottomLine {
+      font-size: 12px;
+   }
+ }
+
+ 
